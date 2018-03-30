@@ -7,6 +7,11 @@ The idea is to be able to connect to a service with a legacy version of java web
 The connection fails with java runtime native to Mac OS X. Using a Windows 7 VM isn't bad, but could be prone to breaking, or lack of availability.
 Other hard-to-duplicate configuration may be defined in this manner, in the future.
 
+### Upstream Docker Image
+
+https://hub.docker.com/r/consol/centos-xfce-vnc/
+
+
 ## Prerequisites
 
 - docker on your laptop.
