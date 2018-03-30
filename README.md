@@ -22,7 +22,7 @@ https://hub.docker.com/r/consol/centos-xfce-vnc/
 
 Build from upstream project to set the connection to UCSM to launch https://ucs-sg1.mps.spscommerce.net/ucsm/ucsm.jnlp
 ```
-docker build . --tag ucs
+docker build --tag ucs .
 ```
 
 ## Run
