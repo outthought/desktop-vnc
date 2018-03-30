@@ -32,6 +32,11 @@ Run on `localhost:5901.`
 docker run --rm -it -p 5901:5901 -p 6901:6901 ucs
 ```
 
+Set vnc password (from the default `vncpassword`).
+```
+docker run --rm -it -p 5901:5901 -p 6901:6901 -e VNC_PW=mypass ucs
+```
+
 
 ## Connect and Login
 
